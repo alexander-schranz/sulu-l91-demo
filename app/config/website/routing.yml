@@ -20,3 +20,9 @@ l91_demo:
 l91_sulu_website_user:
     type: portal
     resource: "@L91SuluWebsiteUserBundle/Resources/config/routing.yml"
+
+# Debug Login Embed
+l91_sulu_website_user.login_embed:
+    path: /login-embed
+    defaults:
+        _controller: L91SuluWebsiteUserBundle:Login:embed

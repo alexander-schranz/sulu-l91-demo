@@ -92,3 +92,4 @@ l91_sulu_website_user:
             from: "%sulu_admin.email%"
         login_fr:
             from: "%sulu_admin.email%"
+            role: FR

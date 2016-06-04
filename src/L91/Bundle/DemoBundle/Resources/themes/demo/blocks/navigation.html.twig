@@ -20,3 +20,11 @@
         {% endfor %}
     </ul>
 </nav>
+
+{% if request.webspaceKey != 'public' %}
+    {{ render_esi(controller('L91SuluWebsiteUserBundle:Login:embed')) }}
+
+    {#
+    {{ render_esi(controller('L91SuluWebsiteUserBundle:Login:embed', { _portal: request.webspaceKey })) }}
+    #}
+{% endif %}

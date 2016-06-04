@@ -19,6 +19,7 @@ security:
 
     access_control:
         - { path: l91_sulu_website_user.profile, roles: ROLE_USER }
+        - { path: l91_sulu_website_user.cross_registration, roles: ROLE_USER }
 
     firewalls:
         website:
