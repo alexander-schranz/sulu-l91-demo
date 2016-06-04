@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["main.js"],"sourcesContent":["require('./Core');\nrequire('./modules/Layout');\nvar Gallery = require('./components/Gallery/Gallery.js');\n\nnew Gallery();\n"],"file":"main.js","sourceRoot":"/source/"}

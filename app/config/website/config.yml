@@ -5,4 +5,4 @@ imports:
 
 # Assetic Configuration
 assetic:
-    bundles:        [ ClientWebsiteBundle ]
+    bundles:        [ ClientWebsiteBundle, L91DemoBundle ]

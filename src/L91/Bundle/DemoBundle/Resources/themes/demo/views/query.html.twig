@@ -1,0 +1,27 @@
+{% extends "L91DemoBundle:views:master.html.twig" %}
+
+{% block seo %}
+    <title>{{ 'Search'|trans }}</title>
+{% endblock %}
+
+{% block content %}
+    <h1>
+        {% trans with {'%name%': hits|length, '%query%': query} %}Showing_%hits%_for_%query%{% endtrans %}
+    </h1>
+
+    {% for i, hit in hits %}
+        <a href="{{ hit.document.url }}">
+            <h3>
+                <a href="{{ hit.document.url }}">{{ hit.document.title }}</a>
+            </h3>
+            <p>
+                <a href="{{ hit.document.url }}">{{ hit.document.url }}</a>
+            </p>
+            <p>
+                {{ hit.document.description|slice(0, 255)|striptags }}
+            </p>
+        </a>
+    {% else %}
+        <p>{{ 'Search_no_results'|trans }}</p>
+    {% endfor %}
+{% endblock %}
