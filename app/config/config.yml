@@ -9,7 +9,7 @@ parameters:
     locale: en
 
 framework:
-    #esi:             ~
+    esi: { enabled: true }
     #translator:      { fallbacks: ["%locale%"] }
     secret:          "%secret%"
     router:
@@ -28,7 +28,7 @@ framework:
     session:
         # handler_id set to null will use default session handler from php.ini
         handler_id:  ~
-    fragments:       ~
+    fragments: { enabled: true }
     http_method_override: true
 
 # Twig Configuration
@@ -79,3 +79,16 @@ liip_theme:
     active_theme: "demo"
     load_controllers: false
     assetic_integration: true
+
+    # Custom for the Website User Bundle
+    path_patterns:
+        app_resource:
+            - %%app_path%%/../../src/L91/Bundle/DemoBundle/Resources/themes/%%current_theme%%/%%template%%
+
+# Custom
+l91_sulu_website_user:
+    webspaces:
+        login:
+            from: "%sulu_admin.email%"
+        login_fr:
+            from: "%sulu_admin.email%"

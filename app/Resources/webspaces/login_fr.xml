@@ -6,6 +6,10 @@
     <name>Login FR</name>
     <key>login_fr</key>
 
+    <security>
+        <system>LoginFR</system>
+    </security>
+
     <localizations>
         <localization language="fr" />
     </localizations>

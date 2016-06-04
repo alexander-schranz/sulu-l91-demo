@@ -1,0 +1,6 @@
+{% set attributes = request.routeParameters|merge({'token': user.confirmationKey}) %}
+{% set confirmationUrl = app.request.schemeAndHttpHost ~ path('l91_sulu_website_user.confirmation', attributes) %}
+
+<a href="{{ confirmationUrl }}">
+    {{ confirmationUrl }}
+</a>

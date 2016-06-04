@@ -80,7 +80,7 @@ abstract class AbstractKernel extends SuluKernel
             new Massive\Bundle\BuildBundle\MassiveBuildBundle(),
 
             // custom
-            new L91\Bundle\DemoBundle\L91DemoBundle(),
+            new L91\Sulu\Bundle\WebsiteUserBundle\L91SuluWebsiteUserBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'])) {

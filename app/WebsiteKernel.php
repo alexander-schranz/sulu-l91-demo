@@ -24,6 +24,9 @@ class WebsiteKernel extends \AbstractKernel
         $bundles = parent::registerBundles();
         $bundles[] = new Symfony\Cmf\Bundle\RoutingBundle\CmfRoutingBundle();
 
+        // Custom
+        $bundles[] = new Symfony\Bundle\SecurityBundle\SecurityBundle();
+
         return $bundles;
     }
 }

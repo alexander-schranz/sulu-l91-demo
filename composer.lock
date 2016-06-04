@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f1315790060d277cfcc4f9e034aed158",
-    "content-hash": "611e0d7c7672a220ce54b3ea17a9f8cd",
+    "hash": "7d7217e45a416120195c7a4d02970ec3",
+    "content-hash": "2e576046ff5d730def9876ce61d3dbb5",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -2446,6 +2446,122 @@
                 "minification"
             ],
             "time": "2015-11-12 13:51:40"
+        },
+        {
+            "name": "l91/sulu-backend-bundle",
+            "version": "dev-master",
+            "target-dir": "L91/Sulu/Bundle/BackendBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexander-schranz/sulu-backend-bundle.git",
+                "reference": "8b6071f3a9b8735493dba9c8c4efcd1783bc7a38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexander-schranz/sulu-backend-bundle/zipball/8b6071f3a9b8735493dba9c8c4efcd1783bc7a38",
+                "reference": "8b6071f3a9b8735493dba9c8c4efcd1783bc7a38",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "L91\\Sulu\\Bundle\\BackendBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Schranz",
+                    "homepage": "http://alexanderschranz.com"
+                }
+            ],
+            "description": "Sulu Bundle for easier create your own backend bundles.",
+            "homepage": "https://github.com/alexander-schranz/sulu-backend-bundle",
+            "time": "2016-06-01 11:04:57"
+        },
+        {
+            "name": "l91/sulu-form-bundle",
+            "version": "dev-develop",
+            "target-dir": "L91/Sulu/Bundle/FormBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexander-schranz/sulu-form-bundle.git",
+                "reference": "abe19850de878e0f77af357ca1b663c1be973be7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexander-schranz/sulu-form-bundle/zipball/abe19850de878e0f77af357ca1b663c1be973be7",
+                "reference": "abe19850de878e0f77af357ca1b663c1be973be7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0",
+                "sulu/sulu": "~1.2 || dev-develop"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "L91\\Sulu\\Bundle\\FormBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Schranz",
+                    "email": "alex.schranz91@gmail.com"
+                }
+            ],
+            "description": "Bundle for handling Symfony forms in Sulu templates.",
+            "homepage": "https://github.com/alexander-schranz/sulu-form-bundle",
+            "time": "2016-05-24 15:27:15"
+        },
+        {
+            "name": "l91/sulu-website-user-bundle",
+            "version": "dev-develop",
+            "target-dir": "L91/Sulu/Bundle/WebsiteUserBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexander-schranz/sulu-website-user-bundle.git",
+                "reference": "44768826b258661f8e5115d7af37b2d15bc8e0e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexander-schranz/sulu-website-user-bundle/zipball/44768826b258661f8e5115d7af37b2d15bc8e0e1",
+                "reference": "44768826b258661f8e5115d7af37b2d15bc8e0e1",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0",
+                "sulu/sulu": "~1.2 || dev-develop"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "L91\\Sulu\\Bundle\\WebsiteUserBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Schranz",
+                    "email": "alex.schranz91@gmail.com"
+                }
+            ],
+            "description": "Sulu Bundle for Website Login, Registration, Double Opt-In, Password Forget/Reset, Profile",
+            "homepage": "https://github.com/alexander-schranz/sulu-website-user-bundle",
+            "time": "2016-05-18 20:47:28"
         },
         {
             "name": "liip/theme-bundle",
@@ -6277,6 +6393,9 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "zendframework/zendsearch": 20,
+        "l91/sulu-backend-bundle": 20,
+        "l91/sulu-form-bundle": 20,
+        "l91/sulu-website-user-bundle": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
         "behat/mink-selenium2-driver": 20,

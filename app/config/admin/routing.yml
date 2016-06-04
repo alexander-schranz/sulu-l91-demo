@@ -99,3 +99,12 @@ client_website:
 sulu_search:
     resource: "@SuluSearchBundle/Resources/config/routing.yml"
     prefix: /admin/search
+
+# Custom
+l91_demo:
+    type: portal
+    resource: "@L91DemoBundle/Resources/config/routing.yml"
+
+l91_sulu_website_user:
+    type: portal
+    resource: "@L91SuluWebsiteUserBundle/Resources/config/routing.yml"
