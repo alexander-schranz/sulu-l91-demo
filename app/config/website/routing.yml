@@ -11,3 +11,7 @@ client_website:
 
 sulu_website:
     resource: "@SuluWebsiteBundle/Resources/config/routing_website.yml"
+
+l91_demo:
+    type: portal
+    resource: "@L91DemoBundle/Resources/config/routing.yml"

@@ -1,0 +1,4 @@
+services:
+#    l91_demo.example:
+#        class: L91\Bundle\DemoBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

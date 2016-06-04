@@ -78,6 +78,9 @@ abstract class AbstractKernel extends SuluKernel
 
             // tools
             new Massive\Bundle\BuildBundle\MassiveBuildBundle(),
+
+            // custom
+            new L91\Bundle\DemoBundle\L91DemoBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'])) {
