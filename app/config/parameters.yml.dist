@@ -2,7 +2,7 @@ parameters:
     database_driver:    pdo_mysql
     database_host:     127.0.0.1
     database_port:     ~
-    database_name:     sulu
+    database_name:     su_demo
     database_user:     root
     database_password: ~
     database_version:  5.5
@@ -17,8 +17,8 @@ parameters:
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
 
-    sulu_admin.name:    Sulu
+    sulu_admin.name:    Demo
     sulu_admin.email:   ~
 
-    websocket_port: 9876
-    websocket_url: 'sulu.lo'
+    websocket_port:     9876
+    websocket_url:      demo.alexanderschranz.lo
