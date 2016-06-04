@@ -1,0 +1,32 @@
+{
+    "camelcase": true,
+    "curly": true,
+    "eqeqeq": true,
+    "expr": true,
+    "forin": true,
+    "immed": true,
+    "indent": 4,
+    "latedef": "nofunc",
+    "newcap": false,
+    "noarg": true,
+    "node": false,
+    "nonbsp": true,
+    "quotmark": "single",
+    "undef": true,
+    "unused": "vars",
+    "trailing": true,
+    "strict": false,
+    "globals": {
+        "after": true,
+        "afterEach": true,
+        "before": true,
+        "beforeEach": true,
+        "context": true,
+        "describe": true,
+        "it": true,
+        "window": true,
+        "require": true,
+        "module": true,
+        "document": true
+    }
+}

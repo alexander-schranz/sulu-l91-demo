@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <!-- Search -->
+            <trans-unit id="1">
+                <source>Search</source>
+                <target>Suche</target>
+            </trans-unit>
+
+            <trans-unit id="2">
+                <source>Showing_%hits%_for_%query%</source>
+                <target>Zeige %hits% Ergebnisse für "%query%"</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

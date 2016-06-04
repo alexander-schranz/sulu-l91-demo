@@ -5,7 +5,7 @@
 
     <key>overview</key>
 
-    <view>ClientWebsiteBundle:templates:overview</view>
+    <view>L91DemoBundle:templates:overview</view>
     <controller>SuluWebsiteBundle:Default:index</controller>
     <cacheLifetime>1209600</cacheLifetime>
 

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block meta %}{% include "L91DemoBundle:blocks:meta.html.twig" %}{% endblock %}
+    {% block seo %}{% include "L91DemoBundle:blocks:seo.html.twig" %}{% endblock %}
+    {% block metaIcons %}{% include "L91DemoBundle:blocks:meta-icons.html.twig" %}{% endblock %}
+    {% block style %}
+        <link rel="stylesheet" href="{{ asset('/bundles/l91demo/default/dist/style.css') }}" />
+    {% endblock %}
+</head>
+<body>
+    <!-- navigation -->
+    {% block navigation %}
+        {% include 'L91DemoBundle:blocks:navigation.html.twig' %}
+    {% endblock %}
+    <!-- /navigation -->
+
+    <div id="wrapper" class="wrapper">
+        <!-- content -->
+        {% block content %}{% endblock %}
+        <!-- /content -->
+    </div>
+
+    <!-- footer -->
+    {% block footer %}
+        {% include 'L91DemoBundle:blocks:footer.html.twig' %}
+    {% endblock %}
+    <!-- /footer -->
+
+    <div id="overlays">{% block overlays %}{% endblock %}</div>
+
+    <!-- javascript -->
+    {% block javascript %}
+        <script type="text/javascript" src="{{ asset('/bundles/l91demo/default/dist/script.js') }}"></script>
+    {% endblock %}
+    <!-- /javascript -->
+</body>
+</html>
