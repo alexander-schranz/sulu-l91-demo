@@ -22,9 +22,5 @@
 </nav>
 
 {% if request.webspaceKey != 'public' %}
-    {{ render_esi(controller('L91SuluWebsiteUserBundle:Login:embed')) }}
-
-    {#
-    {{ render_esi(controller('L91SuluWebsiteUserBundle:Login:embed', { _portal: request.webspaceKey })) }}
-    #}
+    {{ render_esi(controller('L91SuluWebsiteUserBundle:Login:embed', { _locale: app.request.locale ,_portal: request.webspaceKey })) }}
 {% endif %}
