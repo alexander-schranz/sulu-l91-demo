@@ -50,12 +50,12 @@
                 </environment>
                 <environment type="stage">
                     <urls>
-                        <url>login.demo.alexanderschranz.lo/{localization}</url>
+                        <url>login.demo.lo/{localization}</url>
                     </urls>
                 </environment>
                 <environment type="dev">
                     <urls>
-                        <url>login.demo.alexanderschranz.lo/{localization}</url>
+                        <url>login.demo.lo/{localization}</url>
                     </urls>
                 </environment>
             </environments>

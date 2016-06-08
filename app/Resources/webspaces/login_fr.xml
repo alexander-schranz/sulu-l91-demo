@@ -49,12 +49,12 @@
                 </environment>
                 <environment type="stage">
                     <urls>
-                        <url language="fr">login-fr.demo.alexanderschranz.lo</url>
+                        <url language="fr">login-fr.alexanderschranz.lo</url>
                     </urls>
                 </environment>
                 <environment type="dev">
                     <urls>
-                        <url language="fr">login-fr.demo.alexanderschranz.lo</url>
+                        <url language="fr">login-fr.alexanderschranz.lo</url>
                     </urls>
                 </environment>
             </environments>
