@@ -81,6 +81,7 @@ abstract class AbstractKernel extends SuluKernel
 
             // custom
             new L91\Bundle\DemoBundle\L91DemoBundle(),
+            new L91\Sulu\Bundle\FormBundle\L91SuluFormBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'])) {

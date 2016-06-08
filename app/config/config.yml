@@ -79,3 +79,9 @@ liip_theme:
     active_theme: "demo"
     load_controllers: false
     assetic_integration: true
+
+# Custom
+l91_sulu_form:
+    mail_helper:
+        from: %sulu_admin.email%
+        to: %sulu_admin.email%

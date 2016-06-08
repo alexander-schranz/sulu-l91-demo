@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f1315790060d277cfcc4f9e034aed158",
-    "content-hash": "611e0d7c7672a220ce54b3ea17a9f8cd",
+    "hash": "4ee338d77b9a2d7bd6e5fe1ef138dff1",
+    "content-hash": "37f5319a73bd0406df581ecd1ffcad71",
     "packages": [
         {
             "name": "aferrandini/urlizer",
@@ -2446,6 +2446,45 @@
                 "minification"
             ],
             "time": "2015-11-12 13:51:40"
+        },
+        {
+            "name": "l91/sulu-form-bundle",
+            "version": "dev-feature/dynamic-form",
+            "target-dir": "L91/Sulu/Bundle/FormBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alexander-schranz/sulu-form-bundle.git",
+                "reference": "abe19850de878e0f77af357ca1b663c1be973be7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alexander-schranz/sulu-form-bundle/zipball/abe19850de878e0f77af357ca1b663c1be973be7",
+                "reference": "abe19850de878e0f77af357ca1b663c1be973be7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0",
+                "sulu/sulu": "~1.2 || dev-develop"
+            },
+            "type": "sulu-bundle",
+            "autoload": {
+                "psr-0": {
+                    "L91\\Sulu\\Bundle\\FormBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Schranz",
+                    "email": "alex.schranz91@gmail.com"
+                }
+            ],
+            "description": "Bundle for handling Symfony forms in Sulu templates.",
+            "homepage": "https://github.com/alexander-schranz/sulu-form-bundle",
+            "time": "2016-05-24 15:27:15"
         },
         {
             "name": "liip/theme-bundle",
@@ -6277,6 +6316,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "zendframework/zendsearch": 20,
+        "l91/sulu-form-bundle": 20,
         "phpcr/phpcr-shell": 10,
         "behat/mink-extension": 20,
         "behat/mink-selenium2-driver": 20,
