@@ -28,6 +28,7 @@ class AdminKernel extends \AbstractKernel
         $bundles[] = new Symfony\Bundle\SecurityBundle\SecurityBundle();
         $bundles[] = new Sulu\Bundle\AdminBundle\SuluAdminBundle();
         $bundles[] = new Sulu\Bundle\CollaborationBundle\SuluCollaborationBundle();
+        $bundles[] = new L91\Sulu\Bundle\BackendBundle\L91SuluBackendBundle();
 
         if (in_array($this->getEnvironment(), ['dev', 'test'])) {
             $bundles[] = new Sulu\Bundle\GeneratorBundle\SuluGeneratorBundle();
