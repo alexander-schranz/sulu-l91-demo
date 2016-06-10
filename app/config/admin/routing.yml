@@ -99,3 +99,8 @@ client_website:
 sulu_search:
     resource: "@SuluSearchBundle/Resources/config/routing.yml"
     prefix: /admin/search
+
+l91_sulu_form_api:
+    type: rest
+    resource: "@L91SuluFormBundle/Resources/config/routing_api.yml"
+    prefix: /admin/api

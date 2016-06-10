@@ -75,8 +75,8 @@ swiftmailer:
 
 # LIIP Theme Configuration
 liip_theme:
-    themes: ["demo"]
-    active_theme: "demo"
+    themes: ["default", "demo"]
+    active_theme: "default"
     load_controllers: false
     assetic_integration: true
 
